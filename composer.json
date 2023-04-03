@@ -3,7 +3,7 @@
     "description": "Digite bin/magento magenteiro:pascoa para ver o resultado",
     "require": {
         "php": "*",
-        "magento/framework": "100.*"
+        "magento/framework": "*"
     },
     "type": "magento2-module",
     "version": "1.0.2",
