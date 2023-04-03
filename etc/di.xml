@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="magenteiro_pascoa_pascoa" xsi:type="object">Magenteiro\Pascoa\Console\Command\Pascoa</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
